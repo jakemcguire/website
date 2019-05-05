@@ -47,35 +47,50 @@ body {
 }
 
 #expertise,
+#domain-expertise,
 #technology,
 #certifications {
     margin-bottom: 50px;
 }
 
-#expertise .col-sm-4 {
+#expertise .col-sm-4,
+#domain-expertise .col-sm-4 {
     padding: 15px !important;
 }
 
-#expertise .card {
+#expertise .card,
+#domain-expertise .card {
     padding-top: 10px;
     margin-bottom: 20px;
 }
 
-#expertise .card:hover > * {
+#expertise .card:hover > *,
+#domain-expertise .card:hover > * {
     color: #286dc0;
     cursor: pointer;
 }
 
-#expertise i {
+#expertise i,
+#domain-expertise i {
     text-align: center;
 }
 
-#expertise i:before {
+#expertise i:before,
+#domain-expertise i:before {
     font-size: 60px;
 }
 
-#expertise h4 {
+#expertise h4,
+#domain-expertise h4 {
     text-align: center;
+}
+
+#technologyShowcase .carousel-inner {
+    text-align: center;
+}
+
+#technologyShowcase i:before {
+    font-size: 60px;
 }
 
 #contact .social-media {
@@ -92,6 +107,18 @@ body {
 
 #contact i:before {
     font-size: 50px;
+}
+
+.icon-angular {
+    color: #b52e31;
+}
+
+.icon-react {
+    color: #00d8ff;
+}
+
+.icon-nodejs {
+    color: #6cc24a;
 }
 
 .flaticon-hacker-news {
