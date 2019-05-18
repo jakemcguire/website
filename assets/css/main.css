@@ -8,6 +8,7 @@ body {
 
 #content section {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #content section > h2 {
@@ -89,6 +90,10 @@ body {
     text-align: center;
 }
 
+#technologyShowcase .carousel-item .tech-label {
+    margin: 15px 0;
+}
+
 #technologyShowcase i:before {
     font-size: 60px;
 }
@@ -119,6 +124,54 @@ body {
 
 .icon-nodejs {
     color: #6cc24a;
+}
+
+.icon-js {
+    color: #f7df1c;
+}
+
+.icon-js:before {
+    background-color: black;
+    height: 50px;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.icon-csharp {
+    color: #0077b5;
+}
+
+.icon-visual-studio {
+    color: #854cc7;
+}
+
+.icon-html5 {
+    color: #e34f27;
+}
+
+.icon-css3-alt {
+    color: #264de4;
+}
+
+.icon-phonegap {
+    color: #854cc7;
+}
+
+.icon-ec3 {
+    color: #ff9900;
+}
+
+.icon-database {
+    color: #6cc24a;
+}
+
+.icon-git {
+    color: #f05033;
+}
+
+.flaticon-azure {
+    color: #008ad7;
+    line-height: 1 !important;
 }
 
 .flaticon-hacker-news {
