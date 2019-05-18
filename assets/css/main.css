@@ -19,6 +19,7 @@ body {
 #about {
     background: linear-gradient(to right, #286dc0, #00356b);
     color: white;
+    padding-bottom: 0 !important;
 }
 
 #about .headline-image {
@@ -27,13 +28,13 @@ body {
 
 #about .headline-text {
     padding: 20px 15px;
+    text-align: center;
 }
 
 #about h1 {
     margin: 0;
     font-size: 50px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 #about h2 {
@@ -86,6 +87,18 @@ body {
     text-align: center;
 }
 
+#domain-expertise {
+    background-color: #f9f9ff;
+}
+
+#technology {
+    /* background-color: #f9f9ff; */
+}
+
+#technologyShowcase {
+    margin-top: 50px;
+}
+
 #technologyShowcase .carousel-inner {
     text-align: center;
 }
@@ -95,15 +108,25 @@ body {
 }
 
 #technologyShowcase i:before {
-    font-size: 60px;
+    font-size: 100px;
+}
+
+#certifications {
+    background-color: #f9f9ff;
+}
+
+#certifications .certification {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#certifications img {
+    height: 175px;
+    margin-bottom: 15px;
 }
 
 #contact .social-media {
     margin-bottom: 25px;
-}
-
-#technology {
-    background-color: #f9f9ff;
 }
 
 #contact a {
@@ -111,7 +134,7 @@ body {
 }
 
 #contact i:before {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .icon-angular {
@@ -132,7 +155,7 @@ body {
 
 .icon-js:before {
     background-color: black;
-    height: 50px;
+    height: 85px;
     margin-top: -4px;
     margin-left: 1px;
 }
